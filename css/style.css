@@ -91,3 +91,16 @@ body{
         display: block;
     }
    }
+
+   /* REGOLE DESKTOP */
+   @media screen and (min-width:992px) {
+    /* regole jumbo */
+    .cakeinfo{
+        display: flex;
+    }
+    /* regole footer */
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+   }
