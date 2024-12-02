@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Montserrat, ‘Helvetica Neue’, sans-serif;;
+}
+ /* modile first */
+ header {
+    height: 100px;
+    /* DEBUG */
+    background-color: orange;
+ }
+ body{
+    background-color: lightgray;
+ }
+ /* regole container */
+ .container {
+    width: 80%;
+    margin:3% auto;
+        /* DEBUG */
+    height: 1400px;
+    background-color: blue;
+    border: 2px solid black;
+    border: dashed;
+ }
+ .jumbo {
+    /* DEBUG */
+    height: 500px;
+    background-color: red;
+    border: 2px solid black;
+    border: dashed;
+ }
+ .cakeinfo {
+    /* DEBUG */
+    height: 350px;
+    background-color: rgb(169, 22, 139);
+    border: 2px solid black;
+    border: dashed;
+ }
+ .cakeinfo div{
+    /* DEBUG */
+    background-color: rgb(75, 199, 22);
+    border: 2px solid black;
+    border: dashed;
+    
+ }
+ /* regole icone social */
+ .social {
+    /* DEBUG */
+    height: 100px;
+    background-color: aqua;
+
+ }
+ /* regole banner */
+ #banner {
+    /* DEBUG */
+    height: 100px;
+    background-color: orange;
+    border: 2px solid black;
+    border: dashed;
+    display: none;
+ }
+ #presentazione {
+    /* DEBUG */
+    height: 400px;
+    background-color: rgb(9, 190, 39);
+    border: 2px solid black;
+    border: dashed;
+ }
+ /* regole footer */
+ footer{
+    background-color: blueviolet;
+    color: white;
+    /* DEBUG */
+    height: 300px;
+ }
+ footer div {
+     /* DEBUG */
+     height: 100px;
+     background-color: rgb(247, 102, 11);
+     border: 2px solid black;
+     border: dashed;
+  }
+ 
+  /* REGOLE TABLET */
+   @media screen and (min-width:768px) {
+    /* regole banner */
+    #banner {
+        display: block;
+    }
+   }
