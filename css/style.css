@@ -26,10 +26,10 @@ body{
     width: 80%;
     margin:3% auto;
         /* DEBUG */
-    height: 1800px;
-    background-color: blue;
+    /* height: 1800px; */
+    /* background-color: blue;
     border: 2px solid black;
-    border: dashed;
+    border: dashed; */
  }
  .jumbo {
     /* DEBUG */
@@ -99,10 +99,10 @@ body{
  #presentazione {
    
     /* DEBUG */
-    height: 600px;
+    /* height: 600px;
     background-color: rgb(9, 190, 39);
     border: 2px solid black;
-    border: dashed;
+    border: dashed; */
  }
 hr {
    width: 15%;
@@ -120,7 +120,7 @@ hr {
     background-color: blueviolet;
     color: white;
     /* DEBUG */
-    height: 300px;
+    /* height: 300px; */
  }
  footer div {
      /* DEBUG */
@@ -149,7 +149,23 @@ hr {
     #banner {
         display: block;
     }
+    /* regole sezione presentazione */
+    #presentazione img{
+       width: 30%;
+      margin-right: 12px;
+      margin-bottom:12px;
+      float: left;
+
+     padding: 0;
+     text-align: start;
+    }
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
    }
+   
 
    /* REGOLE DESKTOP */
    @media screen and (min-width:992px) {
