@@ -28,11 +28,10 @@ body{
     
  }
  /* regole jumbo */
-.jumbo {
-    box-shadow: -4px 4px 10px #504848;
-}
+
  .jumbo h4{
     color: gray;
+    
  }
  .jumbo h1{
     color: darkorchid;
@@ -43,6 +42,10 @@ body{
     display: none;
  }
 /* regole immagin e testo */
+.cakeinfo{
+    box-shadow: -4px 4px 10px #504848;
+
+}
  .cakeinfo img {
     max-width: 100%;
     margin: 0 auto;
@@ -50,14 +53,18 @@ body{
  
  .cakeinfo ul{
     list-style: none;
-    margin-top: 15px;
+    margin-top: 17px;
  }
  .cakeinfo li{
-    margin-top: 7px;
+    margin-top: 9px;
  }
  #colonnadx{
     background-color: white;
-    padding: 3%;
+    padding: 4%;
+    
+ }
+ #colonnadx h3{
+    font-size: 23px;
  }
  /* regole icone social */
  .social {
@@ -68,6 +75,7 @@ body{
     list-style: none;
     display: flex;
     justify-content: space-between;
+    align-content: center;
  }
  .social li {
     background-color: bisque;
@@ -204,6 +212,9 @@ footer li{
     }
     .jumbo h1{
         font-size: 35px;
+       }
+       #colonnadx {
+        width: 34%;
        }
     /* regole icone social */
     .social span {
