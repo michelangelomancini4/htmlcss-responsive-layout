@@ -27,7 +27,10 @@ body{
     margin:3% auto;
     
  }
-
+ /* regole jumbo */
+.jumbo {
+    box-shadow: -4px 4px 10px #504848;
+}
  .jumbo h4{
     color: gray;
  }
@@ -39,21 +42,22 @@ body{
  .jumbo span{
     display: none;
  }
-
+/* regole immagin e testo */
  .cakeinfo img {
     max-width: 100%;
     margin: 0 auto;
  }
- #colonnadx{
-    background-color: white;
-    padding: 3%;
- }
+ 
  .cakeinfo ul{
     list-style: none;
     margin-top: 15px;
  }
  .cakeinfo li{
     margin-top: 7px;
+ }
+ #colonnadx{
+    background-color: white;
+    padding: 3%;
  }
  /* regole icone social */
  .social {
@@ -69,10 +73,27 @@ body{
     background-color: bisque;
     border-radius: 9999px;
     padding: 2%;
+    box-shadow: 10px 8px 2px #504848;
  }
  .social span {
     display: none;
  }
+ .fa-facebook {
+    color: blue;
+ }
+ .fa-twitter {
+    color: rgb(22, 170, 224);
+ }
+ .fa-instagram {
+    color: rgb(230, 52, 20);
+     }
+.fa-pinterest {
+    color: darksalmon;
+}
+.fa-youtube {
+    color: red;
+}
+ 
  /* regole banner */
  #banner {
    
@@ -86,7 +107,7 @@ body{
 
 hr {
    width: 15%;
-   color: orangered;
+   background-color: orangered;
    margin-top: 20px;
    margin-bottom: 20px;
 }
@@ -114,11 +135,13 @@ hr {
 footer li{
     margin-right:  3px;
     width: 40%;
+    text-decoration: underline;
     
 }
  
   /* REGOLE TABLET */
    @media screen and (min-width:768px) {
+    /* regole header */
     header{
         text-align: start;
         padding-top: 2%;
@@ -127,6 +150,7 @@ footer li{
     header span{
         margin: 10px 15px;
     }
+    /* regole jumbo */
    .jumbo h1{
     font-size: 30px;
    }
